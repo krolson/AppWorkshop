@@ -56,15 +56,15 @@
     },
     "sqlSchemaScript": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/karlrissland/AppWorkshop/master/IaaS2PaaSWeb/PartsUnlimitedDatabase/Migrations/0001_20170912-1438_karlriss.sql"
+      "defaultValue": "https://raw.githubusercontent.com/krolson/AppWorkshop/master/IaaS2PaaSWeb/PartsUnlimitedDatabase/Migrations/0001_20170912-1438_karlriss.sql"
     },
     "sqlDataScript": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/karlrissland/AppWorkshop/master/IaaS2PaaSWeb/PartsUnlimitedDatabase/Post-Deployment/01_Finalize_Deployment.sql"
+      "defaultValue": "https://raw.githubusercontent.com/krolson/AppWorkshop/master/IaaS2PaaSWeb/PartsUnlimitedDatabase/Post-Deployment/01_Finalize_Deployment.sql"
     },
     "repoUri": {
       "type": "string",
-      "defaultValue": "https://github.com/karlrissland/AppWorkshop.git"
+      "defaultValue": "https://github.com/krolson/AppWorkshop.git"
     },
     "_artifactsLocation": {
       "type": "string",
