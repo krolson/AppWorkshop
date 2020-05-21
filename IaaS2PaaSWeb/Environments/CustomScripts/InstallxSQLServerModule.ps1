@@ -20,6 +20,8 @@ Write-Host("sqlSchemaScript  $sqlSchemaScript")
 Write-Host("sqlDataScript  $sqlDataScript")
 
 # Install Nuget, needed to install DSC modules via PowerShellGet
+# Set TLS version first due to: https://stackoverflow.com/questions/16657778/install-nuget-via-powershell-script/26421187#comment107976901_48216538
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 
 # Install DSC modules used by DSC Scripts run via DSC Extension
